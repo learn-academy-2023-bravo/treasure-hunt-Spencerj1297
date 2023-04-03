@@ -14,8 +14,9 @@ const App = () => {
     "?",
   ])
 const handleGamePlay = (clickedSqaure) => {
-alert(clickedSqaure)
-
+  let updateBoard = [...board]
+  updateBoard[clickedSqaure] = '☕️'
+  setBoard(updateBoard)
 }
 
   return (
