@@ -17,6 +17,12 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - styled sqaure 
 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+- branch name index-position
+- added onClick to sqaure div
+- added handleClick method to Square.js
+- passed index to Square and handlerClick
+- added handleGamePlay to App.js
+- passed handleGamePlay to Square to get the index by using Funcitonal Props
 
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 
