@@ -44,6 +44,7 @@ const handleGamePlay = (clickedSqaure) => {
           handleGamePlay={handleGamePlay}
           />
         })}
+        <button className="refreshButton" onClick={() => window.location.reload(true)}>Refresh</button>
       </div>
     </>
   )

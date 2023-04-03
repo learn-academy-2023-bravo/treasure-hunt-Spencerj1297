@@ -16,3 +16,15 @@ h1 {
   width: 610px;
   margin: 0 auto;
 }
+
+.refreshButton{
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+ font-size: 30px;
+ color: purple;
+ background-color:aliceblue;
+ box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border: none;
+}
